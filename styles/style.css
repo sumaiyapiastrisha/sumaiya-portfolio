@@ -16,18 +16,26 @@ body {
     height: 500px
 }
 
+.banner-part {
+    display: flex;
+}
 
 .banner-title {
 
     padding-top: 200px;
     padding-left: 50px;
+
+}
+
+.blank {
+    width: 70%;
 }
 
 .banner-description {
 
     padding-left: 50px;
     padding-bottom: 20px;
-    color: aliceblue;
+
 }
 
 .banner-button {
@@ -142,7 +150,8 @@ footer h3 {
 .call {
     background-image: url(https://images.pexels.com/photos/336948/pexels-photo-336948.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
     padding-top: 200px;
-    /* background-image: linear-gradient(rgb(91, 87, 86), #ffff); */
+    /* Clip: rect(0px 30px 30px 0px); */
+    background-image: linear-gradient(rgb(91, 87, 86), #ffff);
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 80px;
