@@ -1,0 +1,139 @@
+body {
+
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/*start  banner ============================== */
+
+.banner {
+    /* background-image: url(.banner); */
+    background-image: url(" https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/1631/posts/39588/image-upload/woman_hands_with_camera_working_on_laptop_at_table_2021_08_26_22_49_05_utc_copy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    height: 500px
+}
+
+
+.banner-title {
+
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+.banner-description {
+
+    padding-left: 50px;
+    padding-bottom: 20px;
+    color: aliceblue;
+}
+
+.banner-button {
+
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(91, 87, 86), rgb(27, 26, 24));
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-left: 50px;
+
+}
+
+/* ===============end banner=============== */
+
+
+
+/* about section */
+
+.about {
+    display: flex;
+
+}
+
+.about-sub-title {
+    padding-left: 100px;
+    padding-top: 200px;
+    font-weight: 1000;
+}
+
+.about-description {
+    padding-left: 100px;
+    padding-bottom: 200px;
+    padding-right: 300px;
+}
+
+/* End About section */
+
+/* My projects */
+.My-Projects {
+    text-align: center;
+    margin-left: 10%;
+    padding-bottom: 200px;
+
+
+
+}
+
+.My-Projects-img {
+    margin-top: 90px;
+    margin-bottom: 50px;
+
+
+}
+
+.all-projects {
+    display: flex;
+    margin-left: 10%;
+
+
+}
+
+.project {
+    margin-left: 40px;
+}
+
+.smoke-projects {
+    margin-top: 90px;
+}
+
+/* end projects */
+
+
+
+/* Footer */
+.Footer {
+    display: flex;
+    padding-left: 25%;
+    background-color: black;
+    color: white;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.contact-way {
+    display: flex;
+    padding-right: 10px;
+}
+
+.subscrive-button {
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(91, 87, 86), rgb(27, 26, 24));
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-left: 50px;
+    border-width: 2px;
+    border-color: azure;
+    background-color: beige;
+}
+
+.contact-info {
+    margin-right: 100px;
+}
+
+footer h3 {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
